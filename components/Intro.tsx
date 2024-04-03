@@ -75,7 +75,7 @@ export default function Intro() {
         <span className="font-bold dark:underline">
           React (Next.js), Node.js
         </span>
-        , C# .NET Core 7 .
+        , C# .NET Core.
       </motion.p>
 
       <motion.div
@@ -112,7 +112,7 @@ export default function Intro() {
         dark:bg-white/10
         dark:text-white/70
         "
-          href="/CV.pdf"
+          href="/CV_Le_Minh_Hai.pdf"
           download
         >
           Download CV{" "}

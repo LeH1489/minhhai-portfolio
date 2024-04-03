@@ -5,6 +5,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import Gobnb_img from "@/public/Gobnb.png";
+import Netion_img from "@/public/Netion.png";
+import Blog_img from "@/public/Blog.png";
 
 export const links = [
   {
@@ -35,52 +38,50 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "Learning ASP.NET Core",
+    location: "Seft-studying",
+    description: "I started to learn ASP.NET",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    title: "Learning ReactJS, NodeJS",
+    location: "Seft-studying",
+    description: "I started to learn ReactJS, NodeJS",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full-Stack with NextJS",
+    location: "Seft-studying",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I've learned about Next.js and can work on full-stack development.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Gobnb",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A web application similar to Airbnb is a online marketplace that connects people who want to rent out their homes with people looking for accomodations in specific locales.",
+    tags: ["React", "Next.js", "TypeScript", "MongoDB", "Tailwind", "Prisma"],
+    imageUrl: Gobnb_img,
   },
   {
-    title: "rmtDev",
+    title: "Netion",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A web application similar to Notion is a note-taking web app where users can take notes, track progress, plan schedules, and organize project details.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Convex"],
+    imageUrl: Netion_img,
   },
   {
-    title: "Word Analytics",
+    title: "Blog Coffee",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Coffee Blog is a dynamic platform designed for users to exchange information, knowledge, and news.",
+    tags: ["Bootstrap", "Ajax", "Jquery", ".NET CORE 7.0", "Azure"],
+    imageUrl: Blog_img,
   },
 ] as const;
 
@@ -96,12 +97,6 @@ export const skillsData = [
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "ASP.NET Core",
 ] as const;
